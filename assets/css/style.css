@@ -1,43 +1,114 @@
-.grid { 
-width: 90%; 
-height: 300px; 
-display: flex; 
-flex-wrap: wrap; 
-margin: 60px auto; 
-} 
+/* ----- Global Styles ----- */
 
-.grid img { 
-margin: 2px; 
-transform-style: preserve-3d; 
-transition: transform 0.5s; 
-} 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Zen+Dots&display=swap');
 
-.grid img.flip { 
-transform: rotateY(180deg); 
-} 
-
-.popup { 
-background: red; 
-width: 200px; 
-height: 200px; 
-z-index:20;
-position: fixed; 
-top: 100px;
-left: 100px; 
-display: flex;
-justify-content: center; 
-align-items: center; 
-flex-direction: column;
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', Times, serif;
+    color: #000;
 }
 
-.data { 
-display: flex; 
-justify-content: space-between; 
-padding: 20px 30px; 
-font-size: 23px; 
-} 
+hr {
+    margin: 0.4rem 0;
+    border: none;
+}
 
-.data span { 
-color: rgb(206, 121, 11);
-font-size: 30px; 
+/* ----- Classes ----- */
+
+.nav {
+    width: 100%;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    background: linear-gradient(45deg, #5b98d1, #1c6a94);
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.5rem 0.4rem;
+    border-radius: 0.8rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 0.4rem;
+    color: #000;
+}
+
+.grid {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px auto;
+}
+
+.grid img {
+    margin: 2px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.grid img.flip {
+    transform: rotateY(180deg);
+}
+
+.popup {
+    background: red;
+    width: 200px;
+    height: 200px;
+    z-index: 20;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-size: 23px;
+}
+
+.data span {
+    color: rgb(206, 121, 11);
+    font-size: 30px;
+}
+
+.footer a, i {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.footer a:hover, i:hover {
+    color: #000;
+}
+
+/* ----- IDs ----- */
+
+#title {
+    font: 2.5rem Zen Dots;
+    margin: 2rem;
+}
+
+#main-footer {
+    background: linear-gradient(45deg, #5b98d1, #1c6a94);
+    padding: 1rem 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
