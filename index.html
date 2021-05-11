@@ -24,6 +24,16 @@
     <!-- Main game - needs adjustments -->
 
     <main class="container">
+        <button class="btn" onclick="gameInfo()">MORE INFO</button>
+        <p id="gameInfo">Welcome to my Javascript memory game! Please click a card to start the game. Your score will be
+            based on how many clicks it takes to find all the pairs. Good luck!</p>
+        <br>
+        <form action="">
+            <label for="fname-index">Name</label>
+            <input type="text" id="fname-index" name="name" placeholder="Your name..">
+            <input type="submit" value="Start" id="submit-start" class="btn">
+        </form>
+        <br>
         <div class="data">
             <div class="click">Score : <span class="clickBoard">0</span></div>
         </div>
@@ -46,13 +56,14 @@
             <a href="contact.html">Contact</a>
             <hr>
             <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.twitter.com" target="_blank" class="middle_icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.twitter.com" target="_blank" id="middle_icon"><i class="fab fa-twitter"></i></a>
             <a href="https://www.google.com" target="_blank"><i class="fab fa-google"></i></a>
         </div>
 
     </footer>
 
     <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/button.js"></script>
 </body>
 
 </html>
