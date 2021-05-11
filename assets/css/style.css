@@ -176,3 +176,12 @@ i:hover {
 #middle_icon {
     margin: 0 1rem;
 }
+
+/* ----- Media Queries ----- */
+
+@media only screen and (min-width: 520px) {
+    .grid {
+        width: 500px;
+        margin: auto;
+    }
+}
