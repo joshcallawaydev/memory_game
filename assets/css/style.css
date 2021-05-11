@@ -17,6 +17,15 @@ hr {
     border: none;
 }
 
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 0.1rem solid #ccc;
+    margin: 1rem 0;
+    resize: vertical;
+}
+
 /* ----- Classes ----- */
 
 .nav {
