@@ -11,7 +11,6 @@
     color: #000;
 }
 
-
 hr {
     margin: 0.4rem 0;
     border: none;
@@ -81,14 +80,17 @@ textarea {
 
 .grid {
     width: 90%;
-    height: 300px;
+    height: 18rem;
     display: flex;
     flex-wrap: wrap;
-    margin: 60px auto;
+    margin: 0.6rem 5% 6rem;
+    justify-content: center;
 }
 
 .grid img {
-    margin: 2px;
+    margin: 0.2rem;
+    height: 125px;
+    width: 100px;
     transform-style: preserve-3d;
     transition: transform 0.5s;
 }
@@ -98,17 +100,19 @@ textarea {
 }
 
 .popup {
-    background: red;
-    width: 200px;
-    height: 200px;
-    z-index: 20;
+    background: black;
+    width: 8rem;
+    height: 4rem;
     position: fixed;
-    top: 100px;
-    left: 100px;
+    z-index: 20;
+    top: 20%;
+    left: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 5%;
+    display: none;
 }
 
 .playAgain {
@@ -121,15 +125,17 @@ textarea {
 }
 
 .data {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 30px;
-    font-size: 23px;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: inline-block;
 }
 
 .data span {
     color: rgb(206, 121, 11);
-    font-size: 30px;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-weight: bolder;
 }
 
 .footer a,

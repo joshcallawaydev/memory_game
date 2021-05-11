@@ -1,19 +1,54 @@
 // cards
 
-let cardArray = [ 
-{ name: "fries", img: "fries.png", }, 
-{ name: "fries", img: "fries.png", },
-{ name: "pizza", img: "pizza.png", },
-{ name: "pizza", img: "pizza.png", }, 
-{ name: "milkshake", img: "milkshake.png", },
-{ name: "milkshake", img: "milkshake.png", }, 
-{ name: "ice-cream", img: "ice-cream.png", },
-{ name: "ice-cream", img: "ice-cream.png", },
-{ name: "hotdog", img: "hotdog.png", },
-{ name: "hotdog", img: "hotdog.png", },
-{ name: "cheeseburger", img: "cheeseburger.png", },
-{ name: "cheeseburger", img: "cheeseburger.png", }, 
-]; 
+let cardArray = [{
+        name: "bulbasaur",
+        img: "assets/images/bulbasaur.png",
+    },
+    {
+        name: "bulbasaur",
+        img: "assets/images/bulbasaur.png",
+    },
+    {
+        name: "charizard",
+        img: "assets/images/charizard.png",
+    },
+    {
+        name: "charizard",
+        img: "assets/images/charizard.png",
+    },
+    {
+        name: "pikachu",
+        img: "assets/images/pikachu.png",
+    },
+    {
+        name: "pikachu",
+        img: "assets/images/pikachu.png",
+    },
+    {
+        name: "pokeball",
+        img: "assets/images/pokeball.png",
+    },
+    {
+        name: "pokeball",
+        img: "assets/images/pokeball.png",
+    },
+    {
+        name: "ash",
+        img: "assets/images/ash.png",
+    },
+    {
+        name: "ash",
+        img: "assets/images/ash.png",
+    },
+    {
+        name: "squirtle",
+        img: "assets/images/squirtle.png",
+    },
+    {
+        name: "squirtle",
+        img: "assets/images/squirtle.png",
+    },
+];
 
 //define variables and get DOM element
 
@@ -49,7 +84,7 @@ function createBoard(grid, array) {
 popup.style.display = "none"; 
 array.forEach((arr, index) => { 
 let img = document.createElement("img"); 
-img.setAttribute("src", "blank.png");
+img.setAttribute("src", "assets/images/Pokemon_Card.jpeg");
 img.setAttribute("data-id", index); 
 grid.appendChild(img); 
 })
