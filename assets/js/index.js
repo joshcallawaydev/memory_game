@@ -110,6 +110,7 @@ function replay() {
         img.addEventListener("click", flipCard)
     )
 }
+
 //createBoard function
 
 function createBoard(grid, array) {
@@ -178,3 +179,12 @@ function checkWon() {
         setTimeout(() => popup.style.display = "flex", 300);
     }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    personalBest.loadData();
+    playAgain.addEventListener("click", replay);
+    startGame.addEventListener("click", function (e) {
+        e.preventDefault();
+        replay();
+    });
+});
