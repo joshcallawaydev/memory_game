@@ -52,16 +52,21 @@ let cardArray = [{
 
 //define variables and get DOM element
 
-let grid = document.querySelector(".grid"); 
-let scoreBoard = document.querySelector(".scoreBoard"); 
-let popup = document.querySelector(".popup"); 
-let playAgain = document.querySelector(".playAgain"); 
-let clickBoard = document.querySelector(".clickBoard"); 
-let imgs; 
-let cardsId = []; 
-let cardsSelected = []; 
-let cardsWon = 0; 
+let grid = document.querySelector(".grid");
+let source = document.querySelector("#source")
+let popup = document.querySelector(".popup");
+let playAgain = document.querySelector(".playAgain");
+let startGame = document.querySelector("#submit-start");
+let clickBoard = document.querySelector(".clickBoard");
+let image;
+let cardsId = [];
+let cardsSelected = [];
+let cardsWon = 0;
 let clicks = 0;
+let seconds = 0;
+let timer = 0;
+let downloadTimer;
+
 
 document.addEventListener("DOMContentLoaded", function () {
 //define functions 
