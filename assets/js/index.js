@@ -67,6 +67,22 @@ let seconds = 0;
 let timer = 0;
 let downloadTimer;
 
+// start and stop timer functions
+
+function stopTimer() {
+    clearInterval(downloadTimer);
+    seconds = 0;
+}
+
+function startTimer () {
+    downloadTimer = setInterval(function () {
+        document.getElementById("timer").textContent = seconds++;
+        if (timer === 60){
+            stopTimer();
+            alert("You have run out of time");
+        }
+    }, 1000);
+}
 
 document.addEventListener("DOMContentLoaded", function () {
 //define functions 
