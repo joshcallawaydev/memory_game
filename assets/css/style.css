@@ -11,6 +11,7 @@
     color: #000;
 }
 
+
 hr {
     margin: 0.4rem 0;
     border: none;
@@ -39,6 +40,34 @@ hr {
     background-color: rgba(255, 255, 255, 0.2);
     padding: 0.5rem 0.4rem;
     color: #000;
+}
+
+.btn {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(45deg, #5b98d1, #1c6a94);
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    width: 6rem;
+}
+
+.btn:hover {
+    background: #1c6a94;
+    color: #fff;
+    font-weight: 500;
+}
+
+.container {
+    border-radius: 5px;
+    height: 600rem;
+    background: linear-gradient(45deg, #ffffff, #ffffff);
+    padding: 20px;
+    margin-bottom: 1rem;
 }
 
 .grid {
@@ -85,16 +114,17 @@ hr {
     font-size: 30px;
 }
 
-.footer a, i {
+.footer a,
+i {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 0.5rem;
     font-size: 0.9rem;
     font-weight: 500;
 }
 
-.footer a:hover, i:hover {
+.footer a:hover,
+i:hover {
     color: #000;
 }
 
@@ -105,10 +135,20 @@ hr {
     margin: 2rem;
 }
 
+#gameInfo {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 #main-footer {
     background: linear-gradient(45deg, #5b98d1, #1c6a94);
     padding: 1rem 0;
     width: 100%;
     position: absolute;
     bottom: 0;
+}
+
+#middle_icon {
+    margin: 0 1rem;
 }
