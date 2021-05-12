@@ -71,11 +71,10 @@ textarea {
 }
 
 .container {
-    border-radius: 5px;
-    height: 600rem;
+    border-radius: 0.25rem;
+    height: 55rem;
     background: linear-gradient(45deg, #ffffff, #ffffff);
-    padding: 20px;
-    margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 .grid {
@@ -89,8 +88,8 @@ textarea {
 
 .grid img {
     margin: 0.2rem;
-    height: 125px;
-    width: 100px;
+    height: 7.8rem;
+    width: 6.2rem;
     transform-style: preserve-3d;
     transition: transform 0.5s;
 }
@@ -168,13 +167,17 @@ i:hover {
 #main-footer {
     background: linear-gradient(45deg, #5b98d1, #1c6a94);
     padding: 1rem 0;
+    margin-top: 2rem;
     width: 100%;
-    position: absolute;
-    bottom: 0;
 }
 
 #middle_icon {
     margin: 0 1rem;
+}
+
+#table {
+    margin: 0.5rem auto;
+    padding: 0 1.5rem;
 }
 
 /* ----- Media Queries ----- */

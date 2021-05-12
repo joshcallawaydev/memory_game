@@ -1,3 +1,6 @@
+
+table = document.querySelector("#per_Best");
+
 window.personalBest = {
     renderPersonalBestTable(scores) {
         // this will present some space and render a table
@@ -21,9 +24,18 @@ window.personalBest = {
         window.localStorage.setItem('game', JSON.stringify(existingGamesPlayed));
     },
     loadData() {
-        // get from localstorage
-        // var games = window.localStorage.getItem("games");
-        // document.getElementById("fname-index").value = yourName;
-        // document.createElement("li").innerHTML.display = yourName;
+        document.getElementById("per_best").innerHTML = window.localStorage.getItem('game');
     }
 }
+/*
+var person = {name:"John", age:30, city:"New York"};
+
+document.getElementById("demo").innerHTML =
+person.name + "," + person.age + "," + person.city;
+
+
+get from localstorage
+var games = window.localStorage.getItem("games");
+document.getElementById("fname-index").value = yourName;
+document.createElement("li").innerHTML.display = yourName;
+*/

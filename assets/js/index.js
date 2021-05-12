@@ -87,7 +87,7 @@ function startTimer() {
 function replay() {
     const name = document.getElementById("fname-index").value;
     if (!name || name.length < 2) {
-        alert("you must enter your name");
+        alert("Please enter your name");
         return;
     }
 
@@ -172,7 +172,7 @@ function checkWon() {
         personalBest.saveData(score, new Date().toUTCString());
 
         stopTimer();
-        alert("You won")
+        alert("Congratulations, you won")
         // stop timer
         // save
         // render personal best
