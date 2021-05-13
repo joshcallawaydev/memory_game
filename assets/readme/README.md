@@ -1,59 +1,83 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Overview
 
-Welcome joshcallawaydev,
+This project is a javascript memory game. The objective of the site is to demonstrate my understanding of javascript and APIs. The site is built with HTML5, CSS3, Javascript and has access to the EmailJS API.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The game is designed to test peoples memory, and is fully interactive.
 
-## Gitpod Reminders
+The framework is not my own, and was taken from an article. A link to the article can be found at the bottom of this file. The code has been adjusted, refactored and features added / removed to suit my requirements.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
 
-`python3 -m http.server`
+1. First time - as a first time user i would like to
 
-A blue button should appear to click: _Make Public_,
+- play the game
+- easily navigate the site
+- understand how the game is played
 
-Another blue button should appear to click: _Open Browser_.
+2. Returning - as a returning user i would like to
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- see my scores
+- play the game within 3 clicks (excluding any validation needed)
 
-A blue button should appear to click: _Make Public_,
+3. Frequent 
 
-Another blue button should appear to click: _Open Browser_.
+- see social media links
+- contact the creator
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Design
 
-To log into the Heroku toolbelt CLI:
+- Color scheme
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Explanation and image of color scheme???
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+- Typography
 
-## Updates Since The Instructional Video
+Fonts and sizing explanation needed???
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- Imagery
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+*I do not own the rights to these images. All images were taken from google.*
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- UI/Site Design
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Wireframes to be added???
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Technology
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### Languages
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+1. HTML5
+2. CSS3
+3. Javascript (vanilla js)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Framework/Features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Javascript
+- Email.js
+- Google Fonts
+- Git
+- Gitpod
+- Balsamiq
+- Responsiveness
+- Hover:css
+- Local Storage
+- Font Awesome Icons
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Deployment
 
----
+The site is deployed with xxx
 
-Happy coding!
+- Deployment instructions below
+
+1. 
+2. 
+3. 
+
+## Credit
+
+Memory Game Framework - https://dev.to/fakorededamilola/create-a-memory-game-with-js-1l9j
+
+Email JS Framework was taken from the Code Institute xxx module
+
+
+
