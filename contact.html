@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +9,13 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_LkxRVn5xX0jDWna8SO6qp");
+        })();
+    </script>
 </head>
 
 <body>
@@ -23,17 +29,16 @@
     </header>
 
     <main class="container">
-        <form >
-            <label for="fname">Name</label>
+        <form onsubmit="return sendMail(this);">
+            <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Your name.." class="form-control">
 
             <label for="emailaddress">Email</label>
             <input type="text" id="emailaddress" name="emailaddress" placeholder="Your email.." class="form-control">
 
-
             <label for="message">Message</label>
-            <textarea id="projectsummary" name="projectsummary" placeholder="Do you have a suggestion?"
-                style="height:200px" class="form-control"></textarea>
+            <textarea id="message" name="message" placeholder="Do you have a suggestion?"
+                style="height:150px" class="form-control"></textarea>
 
             <input type="submit" value="Submit" class="btn">
         </form>
@@ -47,9 +52,9 @@
             <a href="https://www.twitter.com" target="_blank" class="middle_icon"><i class="fab fa-twitter"></i></a>
             <a href="https://www.google.com" target="_blank"><i class="fab fa-google"></i></a>
         </div>
-
     </footer>
 
+    <script src="./assets/js/contact.js"></script>
 </body>
 
 </html>
