@@ -25,13 +25,26 @@ textarea {
     resize: vertical;
 }
 
+th {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
 /* ----- Classes ----- */
+
+.size {
+    font-size: 1.2rem;
+}
 
 .nav {
     width: 100%;
     padding: 1rem 0;
     text-transform: uppercase;
-    font-size: 0.9rem;
+    font-size: 1rem;
     background: linear-gradient(45deg, #5b98d1, #1c6a94);
 }
 
@@ -125,7 +138,6 @@ textarea {
 
 .data {
     padding: 1rem 1.5rem;
-    font-size: 1.5rem;
     text-transform: uppercase;
     display: inline-block;
 }
@@ -142,7 +154,7 @@ i {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -155,13 +167,11 @@ i:hover {
 
 #title {
     font: 2.5rem Zen Dots;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 #gameInfo {
     padding: 0.5rem;
-    font-size: 1rem;
-    font-weight: 500;
 }
 
 #main-footer {
@@ -178,6 +188,7 @@ i:hover {
 #table {
     margin: 0.5rem auto;
     padding: 0 1.5rem;
+    align-items: center;
 }
 
 /* ----- Media Queries ----- */
