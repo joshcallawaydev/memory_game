@@ -24,14 +24,21 @@ window.personalBest = {
         window.localStorage.setItem('game', JSON.stringify(existingGamesPlayed));
     },
     loadData() {
-        document.getElementById("per_best").innerHTML = window.localStorage.getItem('game');
+        myScore = document.getElementById("per_best").innerHTML = window.localStorage.getItem('game');
     }
 }
+
 /*
 var person = {name:"John", age:30, city:"New York"};
 
+document.getElementById("per_best").innerHTML = window.localStorage.getItem('game');
+
 document.getElementById("demo").innerHTML =
 person.name + "," + person.age + "," + person.city;
+
+let extractScore = window.localStorage.getItem('game');
+        let renderScore = extractScore.substr(10, 2);
+        document.getElementById("per_best").innerHTML = renderScore;
 
 
 get from localstorage
