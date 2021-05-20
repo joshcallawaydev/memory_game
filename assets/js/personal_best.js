@@ -24,14 +24,22 @@ window.personalBest = {
         window.localStorage.setItem('game', JSON.stringify(existingGamesPlayed));
     },
     loadData() {
-        myScore = document.getElementById("per_best").innerHTML = window.localStorage.getItem('game');
+        myScore = document.getElementById("per_best").innerText = window.localStorage.getItem('game');
     }
 }
 
 /*
-var person = {name:"John", age:30, city:"New York"};
+       existingGamesPlayed.forEach(function() {
+        const myScoresDiv = document.createElement('div');
+        myScoresDiv.classList.add('myScores');
 
-document.getElementById("per_best").innerHTML = window.localStorage.getItem('game');
+        const myScoresLi = document.createElement('li');
+        myScoresLi.innerText = existingGamesPlayed;
+        myScoresDiv.appendChild(myScoresLi);
+       });
+
+
+myScore = document.getElementById("per_best").innerHTML = window.localStorage.getItem('game');
 
 document.getElementById("demo").innerHTML =
 person.name + "," + person.age + "," + person.city;
@@ -41,8 +49,4 @@ let extractScore = window.localStorage.getItem('game');
         document.getElementById("per_best").innerHTML = renderScore;
 
 
-get from localstorage
-var games = window.localStorage.getItem("games");
-document.getElementById("fname-index").value = yourName;
-document.createElement("li").innerHTML.display = yourName;
 */
