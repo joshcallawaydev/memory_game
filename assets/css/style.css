@@ -94,7 +94,7 @@ main {
 }
 
 .container {
-    height: 55rem;
+    height: 52rem;
     padding: 1rem;
 }
 
@@ -167,7 +167,7 @@ main {
     font-weight: bolder;
 }
 
-.footer a,
+.footer a, 
 i {
     color: #fff;
     text-decoration: none;
@@ -179,6 +179,15 @@ i {
 .footer a:hover,
 i:hover {
     color: #000;
+}
+
+.middle_icon {
+    margin: 0 1rem;
+}
+
+.icon {
+    font-size: 2rem;
+    margin-top: 1rem;
 }
 
 /* ----- IDs ----- */
@@ -200,10 +209,6 @@ i:hover {
     width: 100%;
 }
 
-#middle_icon {
-    margin: 0 1rem;
-}
-
 #table {
     margin: 0.5rem auto;
     padding: 0 1.5rem;
@@ -216,9 +221,21 @@ i:hover {
 
 /* ----- Media Queries ----- */
 
+@media only screen and (min-width: 501px) {
+    .container {
+        height: 43rem;
+    }
+}
+
 @media only screen and (min-width: 520px) {
     .grid {
         width: 500px;
         margin: auto;
+    }
+}
+
+@media only screen and (max-width: 383px) {
+    .container {
+        height: 68rem;
     }
 }
