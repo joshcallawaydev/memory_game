@@ -24,29 +24,8 @@ window.personalBest = {
         window.localStorage.setItem('game', JSON.stringify(existingGamesPlayed));
     },
     loadData() {
+
+        // load scores on page
         myScore = document.getElementById("per_best").innerText = window.localStorage.getItem('game');
     }
 }
-
-/*
-       existingGamesPlayed.forEach(function() {
-        const myScoresDiv = document.createElement('div');
-        myScoresDiv.classList.add('myScores');
-
-        const myScoresLi = document.createElement('li');
-        myScoresLi.innerText = existingGamesPlayed;
-        myScoresDiv.appendChild(myScoresLi);
-       });
-
-
-myScore = document.getElementById("per_best").innerHTML = window.localStorage.getItem('game');
-
-document.getElementById("demo").innerHTML =
-person.name + "," + person.age + "," + person.city;
-
-let extractScore = window.localStorage.getItem('game');
-        let renderScore = extractScore.substr(10, 2);
-        document.getElementById("per_best").innerHTML = renderScore;
-
-
-*/
