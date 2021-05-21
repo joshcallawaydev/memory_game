@@ -42,7 +42,7 @@ Fonts and sizing explanation needed???
 
 Mobile view
 
-![Mobile view of main game](../assets/images/memory_game_mobile_view.png)
+![Mobile view of main game](assets/images/memory_game_mobile_view.png)
 
 ## Technology
 
