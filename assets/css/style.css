@@ -221,14 +221,17 @@ i:hover {
 
 /* ----- Media Queries ----- */
 
-@media only screen and (min-width: 501px) {
+@media only screen and (min-width: 502px) {
     .container {
         height: 43rem;
     }
-}
 
-@media only screen and (min-width: 520px) {
     .grid {
+        width: 500px;
+        margin: auto;
+    }
+
+    #table {
         width: 500px;
         margin: auto;
     }
