@@ -4,7 +4,7 @@ This project is a javascript memory game. The objective of the site is to demons
 
 The game is designed to test peoples memory, and is fully interactive.
 
-The framework is not my own, and was taken from an article. A link to the article can be found at the bottom of this file. The code has been adjusted, refactored and features added / removed to suit my requirements.
+The framework is not my own, and was taken from an article. A link to the article can be found at the bottom of this file. The code has been refactored and features added / removed to suit my requirements.
 
 ## UX
 
@@ -26,21 +26,23 @@ The framework is not my own, and was taken from an article. A link to the articl
 
 ## Design
 
-- Color scheme
+> Color scheme
 
 Explanation and image of color scheme???
 
-- Typography
+> Typography
 
 Fonts and sizing explanation needed???
 
-- Imagery
+> Imagery
 
 *I do not own the rights to these images. All images were taken from google.*
 
-- UI/Site Design
+> UI/Site Design
 
-Wireframes to be added???
+Mobile view
+
+![Mobile view of main game](./assets/images/memory_game_mobile_view.png)
 
 ## Technology
 
