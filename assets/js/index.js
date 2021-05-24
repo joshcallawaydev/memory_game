@@ -114,12 +114,12 @@ function replay() {
 //createBoard function
 
 function createBoard(grid, array) {
-    array.forEach((arr, index) => {
+    for (var i = 0; i < array.length; i++) {
         let img = document.createElement("img");
         img.setAttribute("src", "assets/images/Pokemon_Card.jpeg");
-        img.setAttribute("data-id", index);
+        img.setAttribute("data-id", i);
         grid.appendChild(img);
-    })
+    }
 }
 
 // arrangeCard function
