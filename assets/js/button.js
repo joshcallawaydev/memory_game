@@ -7,3 +7,4 @@ function gameInfo() {
   } else {
     info.style.display = "none";
   }}
+

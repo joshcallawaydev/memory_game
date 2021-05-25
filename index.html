@@ -25,12 +25,14 @@
 
     <main class="container">
         <button class="btn" onclick="return gameInfo()">Game Info</button>
-        <p id="gameInfo">Welcome! Please enter your name and hit start to play the game. Your score will be
-            based on how long it takes to find all the pairs. Good luck!</p>
+            <p id="gameInfo">Welcome! Please enter your name and hit start to play the game. Your score will be
+                based on how long it takes to find all the pairs. Good luck! &#x1F44D</p>
         <br>
         <form action="">
             <label for="fname-index">Name</label>
+            <br>
             <input type="text" id="fname-index" name="name" placeholder="Your name..">
+            <br>
             <input type="submit" value="Start" id="submit-start" class="btn">
         </form>
         <br>
@@ -55,11 +57,8 @@
         <table>
             <thead>
                 <tr>
-                    <th class="size">Personal Best</th>
-                </tr>
-                <tr>
-                    <th>Score</th>
-                    <th>Last Time Played</th>
+                    <th class="size">Score</th>
+                    <th class="size">Last Time Played</th>
                 </tr>
             </thead>
             <tbody id="per_best"></tbody>
