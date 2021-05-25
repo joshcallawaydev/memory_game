@@ -1,13 +1,18 @@
 
-table = document.querySelector("#per_Best");
-
 window.personalBest = {
-    renderPersonalBestTable(scores) {
+    renderPersonalBestTable(body, scores) {
         // this will present some space and render a table
         for (var i = 0; i < scores.length; i++) {
             var score = scores[i];
             // create table row, chuck data in
-            createTableRow(score)
+            const tableRow = document.createElement('tr');
+            const columnOne = document.createElement('td');
+            const columnTwo = document.createElement('td');
+            tableRow.appendChild(columnOne);
+            tableRow.appendChild(columnTwo);
+            columnOne.innerText = score.score;
+            columnTwo.innerText = score.lastTimePlayed;
+            body.appendChild(tableRow);
         }
     },
     saveData(score, lastTimePlayed) {
@@ -24,8 +29,13 @@ window.personalBest = {
         window.localStorage.setItem('game', JSON.stringify(existingGamesPlayed));
     },
     loadData() {
-
+        //extracts data from local Storage and creates an object
+        let existingGamesPlayed = JSON.parse(window.localStorage.getItem('game'));
+        if (!existingGamesPlayed) {
+            existingGamesPlayed = [];
+        }
         // load scores on page
-        myScore = document.getElementById("per_best").innerText = window.localStorage.getItem('game');
-    }
+        const table = document.getElementById("per_best");
+        this.renderPersonalBestTable(table, existingGamesPlayed);
+        }
 }
