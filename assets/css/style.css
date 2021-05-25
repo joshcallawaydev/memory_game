@@ -11,6 +11,13 @@
     color: #000;
 }
 
+body {
+    background-image: url(../images/background.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 hr {
     margin: 0.4rem 0;
     border: none;
@@ -18,9 +25,9 @@ hr {
 
 input[type=text],
 textarea {
-    width: 100%;
+    width: 70vw;
     padding: 0.8rem;
-    border: 0.1rem solid #ccc;
+    border: 0.1rem solid #000;
     margin: 0.8rem 0;
     resize: vertical;
 }
@@ -29,6 +36,12 @@ th {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 0.5rem;
+
+}
+
+tr {
+    text-align: center;
+    padding: 1.2rem;
 }
 
 table {
@@ -48,6 +61,7 @@ main {
 .size {
     font-size: 1.2rem;
     font-weight: bold;
+    padding: 1rem;
 }
 
 .nav {
@@ -55,22 +69,22 @@ main {
     padding: 1rem 0;
     text-transform: uppercase;
     font-size: 1rem;
-    background: linear-gradient(45deg, #5b98d1, #1c6a94);
+    /*background: linear-gradient(45deg, #5b98d1, #1c6a94);*/
 }
 
 .nav-link {
     text-decoration: none;
     font-weight: 500;
-    color: #fff;
+    color: #000;
     padding: 0.5rem 0.4rem;
     border-radius: 0.8rem;
     transition: background-color 0.2s ease-in-out;
 }
 
 .nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.425);
     padding: 0.5rem 0.4rem;
-    color: #000;
+    color: #fff;
 }
 
 .btn {
@@ -94,7 +108,7 @@ main {
 }
 
 .container {
-    height: 52rem;
+    height: auto;
     padding: 1rem;
 }
 
@@ -169,7 +183,7 @@ main {
 
 .footer a, 
 i {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1rem;
@@ -178,7 +192,7 @@ i {
 
 .footer a:hover,
 i:hover {
-    color: #000;
+    color: #fff;
 }
 
 .middle_icon {
@@ -198,21 +212,27 @@ i:hover {
 }
 
 #gameInfo {
-    padding: 0.5rem;
-    font-size: 0.8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 20%;
+    width: 40%;
+    height: auto;
+    overflow: auto;
+    background: #000;
+    color: #fff;
+    border-radius: 0.2rem;
+    text-align: center;
 }
 
 #main-footer {
-    background: linear-gradient(45deg, #5b98d1, #1c6a94);
+    /*background: linear-gradient(45deg, #5b98d1, #1c6a94);*/
     padding: 1rem 0;
     margin-top: 2rem;
     width: 100%;
-}
-
-#table {
-    margin: 0.5rem auto;
-    padding: 0 1.5rem;
-    align-items: center;
 }
 
 #per_best {
