@@ -1,6 +1,6 @@
 
-window.personalBest = {
-    renderPersonalBestTable(body, scores) {
+(function personalBest() {
+    function renderPersonalBestTable(body, scores) {
         // this will present some space and render a table
         for (var i = 0; i < scores.length; i++) {
             var score = scores[i];
@@ -14,8 +14,8 @@ window.personalBest = {
             columnTwo.innerText = score.lastTimePlayed;
             body.appendChild(tableRow);
         }
-    },
-    saveData(score, lastTimePlayed) {
+    };
+    window.saveData = function saveData(score, lastTimePlayed) {
         // save data localstorage
         let existingGamesPlayed = JSON.parse(window.localStorage.getItem('game'));
         if (!existingGamesPlayed) {
@@ -27,8 +27,8 @@ window.personalBest = {
             lastTimePlayed
         });
         window.localStorage.setItem('game', JSON.stringify(existingGamesPlayed));
-    },
-    loadData() {
+    };
+    window.loadData = function loadData() {
         //extracts data from local Storage and creates an object
         let existingGamesPlayed = JSON.parse(window.localStorage.getItem('game'));
         if (!existingGamesPlayed) {
@@ -36,6 +36,6 @@ window.personalBest = {
         }
         // load scores on page
         const table = document.getElementById("per_best");
-        this.renderPersonalBestTable(table, existingGamesPlayed);
-        }
-}
+        renderPersonalBestTable(table, existingGamesPlayed);
+        };
+})(window);

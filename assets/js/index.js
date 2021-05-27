@@ -169,7 +169,7 @@ function checkWon() {
     if (cardsWon == cardArray.length / 2) {
         // const name = document.querySelector("the name element").value;
         const score = seconds;
-        personalBest.saveData(score, new Date().toUTCString());
+        window.saveData(score, new Date().toUTCString());
 
         stopTimer();
         alert("Congratulations, you won")
@@ -181,7 +181,7 @@ function checkWon() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    personalBest.loadData();
+    window.loadData();
     playAgain.addEventListener("click", replay);
     startGame.addEventListener("click", function (e) {
         e.preventDefault();
