@@ -4,9 +4,9 @@ Below is the extensive testing performed on this project. Testing was compiled t
 
 # Table of contents
 
-* [User stories]()
-* [Dev Tools testing]()
-* [Validators]()
+* [User stories](#User-stories)
+* [Dev Tools testing](#Dev-Tools-testing)
+* [Validators](#Validators)
 
 # User stories
 
@@ -39,7 +39,9 @@ ADD IMAGES
 
 # Dev Tools testing
 
-ADD IMAGES
+Below is an image of me stepping through the code in chrome dev tools. This helped in improving my understanding of how the code worked and monitoring functionality
+
+![image of the dev tools testing](../assets/images/devtoolstesting.png)
 
 # Validators
 
