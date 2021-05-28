@@ -11,7 +11,7 @@ The framework is not my own, and was taken from an article. A link to the articl
 ## Table of contents
 
 * [User Experiance / Design](#UX)
-* Technology / Features
+* [Technology / Features](#Technology)
 * Testing
 * Deployment
 * Credit
