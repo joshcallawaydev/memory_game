@@ -98,6 +98,18 @@ Form design
 
 ![mobile view wireframe](assets/images/form_view_memory_game.png)
 
+### Design rationale - strategy, scope, structure, skeleton, surface
+
+The game was designed to help users improve decision making and improve memory and focus.
+
+I used a simple flexable design that made sure all major functionality and calls to action were immediatly present, making the site easier to use and understand.
+
+I implemented validation in the form of name input so that the timer was not immediatly started, before the user could learn how to play. This removed friction and reduced frustration for users.
+
+I decided to have the scoring table present, under the game board so that it was immediatly present after a user had completed a round, and moved with the flow of ones eye and the flow/direction of the site.
+
+The colour scheme and background were chosen to improve the asthetics of the game, match the theme and be easy on the eye.
+
 # Technology
 
 ### Languages
@@ -137,4 +149,4 @@ The site is deployed with xxx
 
 Memory Game original code - https://dev.to/fakorededamilola/create-a-memory-game-with-js-1l9j
 
-Email JS Framework was taken from the Code Institute Interactive Frontend Development module.
+Email JS work was taken from the Code Institute Interactive Frontend Development module.
