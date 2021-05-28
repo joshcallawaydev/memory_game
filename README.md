@@ -10,7 +10,7 @@ I chose Pokemon for the theme due to its place in popular culture, its ability t
 
 The core code is not my own, and was taken from an article. A link to the article can be found at the bottom of this file. The code has been refactored and features added / removed to suit my requirements. The theme was also changed.
 
-# Table of contents
+# Table of Contents
 
 * [User Experiance](#UX)
 * [Design](#Design)
