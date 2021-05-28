@@ -8,7 +8,7 @@ The game is designed to test peoples memory, and is fully interactive.
 
 I chose Pokemon for the theme due to its place in popular culture, its ability to improve the game like feel and its enhanced ability to trend.
 
-The framework is not my own, and was taken from an article. A link to the article can be found at the bottom of this file. The code has been refactored and features added / removed to suit my requirements. The theme was also changed.
+The core code is not my own, and was taken from an article. A link to the article can be found at the bottom of this file. The code has been refactored and features added / removed to suit my requirements. The theme was also changed.
 
 ## Table of contents
 
@@ -135,7 +135,7 @@ The site is deployed with xxx
 
 ## Credit
 
-Memory Game Framework - https://dev.to/fakorededamilola/create-a-memory-game-with-js-1l9j
+Memory Game original code - https://dev.to/fakorededamilola/create-a-memory-game-with-js-1l9j
 
 Email JS Framework was taken from the Code Institute Interactive Frontend Development module.
 
