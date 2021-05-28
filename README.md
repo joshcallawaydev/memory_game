@@ -10,7 +10,7 @@ I chose Pokemon for the theme due to its place in popular culture, its ability t
 
 The core code is not my own, and was taken from an article. A link to the article can be found at the bottom of this file. The code has been refactored and features added / removed to suit my requirements. The theme was also changed.
 
-## Table of contents
+# Table of contents
 
 * [User Experiance](#UX)
 * [Design](#Design)
@@ -19,7 +19,7 @@ The core code is not my own, and was taken from an article. A link to the articl
 * [Deployment](#Deployment)
 * [Credit](#Credit)
 
-## UX
+# UX
 
 1. First time - as a first time user i would like to
 
@@ -38,17 +38,17 @@ The core code is not my own, and was taken from an article. A link to the articl
 - see social media links
 - contact the creator
 
-## Design
+# Design
 
-> Color scheme
+### Color scheme
 
 ![image of my colour choices](assets/images/colour_palettes.png)
 
-Background image was taken from loading.io (https://loading.io/) and used the chosen (above) colour scheme. With a budget, i would have animated the background to improve the UX and game feel.
+Background image was taken from loading.io (https://loading.io/) and used the chosen (above) colour scheme. With a budget, i would have animated the background so the lighter grandient moved around the page to improve the UX and game feel.
 
 ![image of my colour choices](assets/images/background.svg)
 
-> Typography
+### Typography
 
 All fonts were taken from Google font (https://fonts.google.com/).
 
@@ -60,11 +60,11 @@ I chose this font for its readability at all sizes and at different case sensiti
 
 I chose this font to maximise UX and suit the game genre.
 
-> Sizing
+### Sizing
 
 I chose REM as the primary unit metric due to its flexability with responsive design. I have also used PX with some containers for absolute sizing.
 
-> Imagery
+### Imagery
 
 *I do not own the rights to these images. All images were taken from google.*
 
@@ -78,7 +78,7 @@ Pokemon -
 5. https://www.freeiconspng.com/uploads/pokeball-icon-23.png
 6. https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png
 
-> UI/Site Design
+### UI/Site Design
 
 I used Balsamiq to design the site.
 
@@ -98,15 +98,15 @@ Form design
 
 ![mobile view wireframe](assets/images/form_view_memory_game.png)
 
-## Technology
+# Technology
 
-#### Languages
+### Languages
 
 1. HTML5
 2. CSS3
 3. Javascript (vanilla js)
 
-#### Framework/Features
+### Framework/Features
 
 - Javascript
 - Email.js
@@ -119,11 +119,11 @@ Form design
 - Local Storage
 - Font Awesome Icons
 
-## Testing
+# Testing
 
 Please see TESTING.md file within the DOCs folder.
 
-## Deployment
+# Deployment
 
 The site is deployed with xxx
 
@@ -133,11 +133,8 @@ The site is deployed with xxx
 2. 
 3. 
 
-## Credit
+# Credit
 
 Memory Game original code - https://dev.to/fakorededamilola/create-a-memory-game-with-js-1l9j
 
 Email JS Framework was taken from the Code Institute Interactive Frontend Development module.
-
-
-
