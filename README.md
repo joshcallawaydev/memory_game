@@ -10,12 +10,12 @@ The framework is not my own, and was taken from an article. A link to the articl
 
 ## Table of contents
 
-* [User Experiance / Design](#UX)
+* [User Experiance](#UX)
+* [Design](#Design)
 * [Technology / Features](#Technology)
-* Testing
-* Deployment
-* Credit
-
+* [Testing](#Testing)
+* [Deployment](#Deployment)
+* [Credit](#Credit)
 
 ## UX
 
@@ -28,22 +28,36 @@ The framework is not my own, and was taken from an article. A link to the articl
 2. Returning - as a returning user i would like to
 
 - see my scores
+- see my click rate
 - play the game within 3 clicks (excluding any validation needed)
 
 3. Frequent 
 
 - see social media links
 - contact the creator
+- See my scores
 
 ## Design
 
 > Color scheme
 
-Explanation and image of color scheme???
+![image of my colour choices](assets/images/colour_palettes.png)
 
 > Typography
 
-Fonts and sizing explanation needed???
+All fonts were taken from Google font (https://fonts.google.com/).
+
+- Body/Main Font - Inter
+
+I chose this font for its readability at all sizes and at different case sensitivity.
+
+- Header Font - Zen Dot
+
+I chose this font to maximise UX and suit the game genre.
+
+> Sizing
+
+I chose REM as the primary unit metric due to its flexability with responsive design. I have also used PX with some containers for absolute sizing.
 
 > Imagery
 
@@ -74,6 +88,10 @@ Mobile view
 - Local Storage
 - Font Awesome Icons
 
+## Testing
+
+Please see TESTING.md file within the DOCs folder.
+
 ## Deployment
 
 The site is deployed with xxx
@@ -88,7 +106,7 @@ The site is deployed with xxx
 
 Memory Game Framework - https://dev.to/fakorededamilola/create-a-memory-game-with-js-1l9j
 
-Email JS Framework was taken from the Code Institute xxx module
+Email JS Framework was taken from the Code Institute Interactive Frontend Development module.
 
 
 
