@@ -4,17 +4,19 @@
 
 function sendMail(contactForm) {
     emailjs.send("service_82gsneb", "memory_game_template", {
-        "from_name": contactForm.name.value,
-        "from_email": contactForm.emailaddress.value,
-        "message": contactForm.message.value
-    })
-    .then(
-        function(response) {
-            console.log("SUCCESS", response);
-        },
-        function(error) {
-            console.log("FAILED", error);
-        }
-    );
-    return false;  // To block new page loading
+            "from_name": contactForm.name.value,
+            "from_email": contactForm.emailaddress.value,
+            "message": contactForm.message.value
+        })
+        .then(
+            function (response) {
+                alert("Great! We'll be in touch!");
+                // needs to be /memory-game
+                window.location.replace("/memory-game");
+            },
+            function (error) {
+                alert("Whoops something went wrong");
+            }
+        );
+        return false;
 }
