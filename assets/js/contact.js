@@ -12,7 +12,7 @@ function sendMail(contactForm) {
             function (response) {
                 alert("Great! We'll be in touch!");
                 // needs to be /memory-game
-                window.location.replace("/memory-game");
+                window.location.replace("/contact.html");
             },
             function (error) {
                 alert("Whoops something went wrong");
