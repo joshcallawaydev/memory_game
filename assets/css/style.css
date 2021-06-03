@@ -297,4 +297,8 @@ i:hover {
     .container {
         height: 58rem;
     }
+
+    .size {
+        font-size: 0.8rem;
+    }
 }
