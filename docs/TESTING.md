@@ -60,9 +60,23 @@ In effort to improve UX/UI i regularly tested the site functionality and respons
 
 # Dev Tools testing
 
+I used Dev Tools primarily however also tested across other major browsers, Firefox and Safari.
+
 Below is an image of me stepping through the code in chrome dev tools. This helped in improving my understanding of how the code worked and monitor functionality
 
 ![Image of the dev tools testing](../assets/images/devtoolstesting.png)
+
+- Lighthouse score
+
+![Image of the dev tools lighthouse score](../assets/images/lighthouse_testing.png)
+
+- Firefox testing
+
+![Image of the firefox window](../assets/images/firefox_testing.png)
+
+- Safari testing
+
+im![Image of the safari window](../assets/images/safari_testing.png)age
 
 # Validators
 
