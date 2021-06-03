@@ -46,7 +46,7 @@ The core code is not my own, and was taken from an article. A link to the articl
 
 Background image was taken from loading.io (https://loading.io/) and used the chosen (above) colour scheme. With a budget, i would have animated the background so the lighter grandient moved around the page to improve the UX and game feel.
 
-![image of my colour choices](assets/images/background.svg)
+![image of my background choice](assets/images/background.svg)
 
 ### Typography
 
@@ -89,15 +89,15 @@ Mobile view
 
 Midsize view
 
-![mobile view wireframe](assets/images/memory_game_midsize_view.png)
+![midsize view wireframe](assets/images/memory_game_midsize_view.png)
 
 Desktop view
 
-![mobile view wireframe](assets/images/memory_game_desktop_view.png)
+![desktop view wireframe](assets/images/memory_game_desktop_view.png)
 
 Form design
 
-![mobile view wireframe](assets/images/form_view_memory_game.png)
+![form view wireframe](assets/images/form_view_memory_game.png)
 
 ### Design rationale - strategy, scope, structure, skeleton, surface
 
@@ -138,7 +138,7 @@ Please see TESTING.md file within the DOCs folder.
 
 # Deployment
 
-The site is deployed with xxx
+The site is deployed with GitHub pages.
 
 - Deployment instructions below
 
@@ -146,7 +146,25 @@ The site is deployed with xxx
 2. 
 3. 
 
-You can FORK my code using the below instructions
+### Forking the repo
+
+By forking the GitHub Repo, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the below steps...
+
+1) Log in to GitHub and locate the GitHub Repository
+2) At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button
+3) Click the fork button
+4) You should now have a copy of the original repository in your GitHub
+
+### Cloning the repo
+
+1) Log in to GitHub and locate the GitHub Repository
+2) Under the repository name, click 'code' to veiw the repo URL or download the ZIP file.
+3) To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4) Open terminal
+5) Change the current working directory to the location where you want the cloned directory to be made.
+6) Type git clone, and then paste the URL you copied in Step 3.
+    $ git clone https://github.com/*repo-name*
+7) Press Enter. Your local clone will be created.
 
 # Credit
 
