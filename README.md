@@ -26,11 +26,11 @@ The core code is not my own, and was taken from an article. A link to the articl
 - play the game
 - easily navigate the site
 - understand how the game is played
+- see my time and click rate
 
 2. Returning - as a returning user i would like to
 
 - see my scores
-- see my click rate
 - play the game within 3 clicks (excluding any validation needed)
 
 3. Frequent 
