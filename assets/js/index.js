@@ -53,7 +53,6 @@ let cardArray = [{
 //define variables and get DOM element
 
 let grid = document.querySelector(".grid");
-let source = document.querySelector("#source")
 let popup = document.querySelector(".popup");
 let playAgain = document.querySelector(".playAgain");
 let startGame = document.querySelector("#submit-start");
@@ -97,7 +96,7 @@ function replay() {
     cardsWon = 0;
     clicks = 0;
     grid.innerHTML = "";
-    startTimer()
+    startTimer();
     // Functions
 
     createBoard(grid, cardArray);
@@ -108,7 +107,7 @@ function replay() {
     image = document.querySelectorAll("img");
     Array.from(image).forEach(img =>
         img.addEventListener("click", flipCard)
-    )
+    );
 }
 
 //createBoard function
@@ -125,14 +124,14 @@ function createBoard(grid, array) {
 // arrangeCard function
 
 function arrangeCard() {
-    cardArray.sort(() => 0.5 - Math.random())
+    cardArray.sort(() => 0.5 - Math.random());
 }
 
 // flip Card function
 
 function flipCard() {
     let selected = this.dataset.id;
-    let clicked = cardArray[selected].name
+    let clicked = cardArray[selected].name;
     cardsSelected.push(clicked);
 
 
@@ -152,7 +151,7 @@ function checkForMatch() {
     if (cardsSelected[0] === cardsSelected[1] && firstCard !== secondCard) {
 
         cardsWon += 1;
-        setTimeout(checkWon, 500)
+        setTimeout(checkWon, 500);
     } else {
         imgs[firstCard].setAttribute("src", "assets/images/Pokemon_Card.jpeg");
         imgs[secondCard].setAttribute("src", "assets/images/Pokemon_Card.jpeg");
@@ -172,7 +171,7 @@ function checkWon() {
         window.saveData(score, new Date().toUTCString());
 
         stopTimer();
-        alert("Congratulations, you won")
+        alert("Congratulations, you won");
         // stop timer
         // save
         // render personal best

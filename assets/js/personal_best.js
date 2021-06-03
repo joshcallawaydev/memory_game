@@ -14,7 +14,7 @@
             columnTwo.innerText = score.lastTimePlayed;
             body.appendChild(tableRow);
         }
-    };
+    }
     window.saveData = function saveData(score, lastTimePlayed) {
         // save data localstorage
         let existingGamesPlayed = JSON.parse(window.localStorage.getItem('game'));

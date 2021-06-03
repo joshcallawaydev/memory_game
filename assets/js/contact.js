@@ -9,12 +9,12 @@ function sendMail(contactForm) {
             "message": contactForm.message.value
         })
         .then(
-            function (response) {
+            function () {
                 alert("Great! We'll be in touch!");
                 // needs to be /memory-game
                 window.location.replace("/contact.html");
             },
-            function (error) {
+            function () {
                 alert("Whoops something went wrong");
             }
         );

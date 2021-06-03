@@ -8,3 +8,4 @@ function gameInfo() {
     info.style.display = "none";
   }}
 
+  gameInfo();
