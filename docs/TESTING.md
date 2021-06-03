@@ -70,8 +70,14 @@ I used established online validators for testing the code base.
 
 ### HTML
 
+No issues found in HTML validation.
+
+![Image of the HTML validation test](../assets/images/html_validator.png)
 
 ### CSS
 
+No issues found with the CSS validation.
+
+![Image of the HTML validation test](../assets/images/css_validator.png)
 
 ### Javascript
