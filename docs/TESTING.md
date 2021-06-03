@@ -76,7 +76,7 @@ Below is an image of me stepping through the code in chrome dev tools. This help
 
 - Safari testing
 
-im![Image of the safari window](../assets/images/safari_testing.png)age
+![Image of the safari window](../assets/images/safari_testing.png)age
 
 # Validators
 
