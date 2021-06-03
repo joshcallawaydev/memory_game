@@ -1,4 +1,4 @@
-
+// iife function
 (function personalBest() {
     function renderPersonalBestTable(body, scores) {
         // this will present some space and render a table
