@@ -146,6 +146,8 @@ The site is deployed with xxx
 2. 
 3. 
 
+You can FORK my code using the below instructions
+
 # Credit
 
 Memory Game original code - https://dev.to/fakorededamilola/create-a-memory-game-with-js-1l9j

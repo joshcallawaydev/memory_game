@@ -7,6 +7,7 @@ Below is the extensive testing performed on this project. Testing was compiled t
 * [User stories](#User-stories)
 * [Dev Tools testing](#Dev-Tools-testing)
 * [Validators](#Validators)
+* [Issues Faced](#Issues-Faced)
 
 # User stories
 
@@ -117,3 +118,11 @@ Comments - Only alerts were advising no use of the function but this is in use o
 - button.js
 
 ![A image of the button.js validation](../assets/images/button-js_image.png)
+
+# Issues Faced
+
+With more time i would have liked to refine the game validation. Currently if you click too quickly the logic can not keep up and the clicks can be unregistered.
+
+Further to this you can click a card after its open and it will close. I would to add more validation so this does not hapen.
+
+![A image of the card flip bug](../assets/images/bug1.png)
