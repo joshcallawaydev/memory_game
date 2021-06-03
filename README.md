@@ -56,9 +56,10 @@ All fonts were taken from Google font (https://fonts.google.com/).
 
 I chose this font for its readability at all sizes and at different case sensitivity.
 
-- Header Font - Zen Dot
+- Header/Feature text Font - Zen Dot
+- Body - Inter
 
-I chose this font to maximise UX and suit the game genre.
+I chose Xen Dot font to maximise UX and suit the game genre. Inter was chosen for its readabilty and clean design.
 
 ### Sizing
 
