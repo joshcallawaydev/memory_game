@@ -81,3 +81,21 @@ No issues found with the CSS validation.
 ![Image of the HTML validation test](../assets/images/css_validator.png)
 
 ### Javascript
+
+All javascript files were ran through a validator. A few minor changes needed where functions were passing parameters that did not exist. Some visual changes needed in line with javascript best practice. Evidance below.
+
+- Index.js
+
+![text](../assets/images/index-js_image.png)
+
+- personal_best.js
+
+![text](../assets/images/personal-best-js_image.png)
+
+- contact.js
+
+![text](../assets/images/contact-js_image.png)
+
+- button.js
+
+![text](../assets/images/button-js_image.png)
