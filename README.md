@@ -138,27 +138,46 @@ Please see TESTING.md file within the DOCs folder.
 
 # Deployment
 
-The site is deployed with GitHub pages.
+The site is deployed with Netlify. I chose Netlify for its ease of use and ability to keep all my deployments in one place.
 
 - Deployment instructions below
 
-1. 
-2. 
-3. 
+1. Navigate to https://www.netlify.com
+2. Login or create an account (a standard account is free)
+3. Navigate to your team Overview
+4. Click the 'New site from git' button
+
+![Deployment instructions](assets/images/netlify_1.png)
+
+5. Choose location where your repo is stored
+
+![Deployment instructions](assets/images/netlify_2.png)
+
+6. Click the relevent repo
+
+![Deployment instructions](assets/images/netlify_3.png)
+
+7. Click 'Deploy site' button
+
+![Deployment instructions](assets/images/netlify_4.png)
+
+8. You will get confirmation the site is deployed on the next screen. Here you can set up a custom domain and or generate a HTTPS certificate to secure your site. Please note your site is deployed with a Lets Encript certificate which comes free of charge.
+
+![Deployment instructions](assets/images/netlify_5.png)
 
 ### Forking the repo
 
-By forking the GitHub Repo, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the below steps...
+By forking the GitHub Repo, you make a copy of the original repository on your GitHub account to view and/or make changes without affecting the original repository. To do this, please follow the below steps...
 
 1) Log in to GitHub and locate the GitHub Repository
-2) At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button
+2) At the top of the Repository (not top of the page) just above the "Settings" Button on the menu, locate the "Fork" Button
 3) Click the fork button
 4) You should now have a copy of the original repository in your GitHub
 
 ### Cloning the repo
 
-1) Log in to GitHub and locate the GitHub Repository
-2) Under the repository name, click 'code' to veiw the repo URL or download the ZIP file.
+1) Log in to GitHub and locate the GitHub Repo
+2) Under the repo name, click 'code' to veiw the repo URL or download the ZIP file.
 3) To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4) Open terminal
 5) Change the current working directory to the location where you want the cloned directory to be made.
