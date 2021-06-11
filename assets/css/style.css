@@ -1,5 +1,3 @@
-/* ----- Global Styles ----- */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Zen+Dots&display=swap');
 
 * {
@@ -56,8 +54,6 @@ td {
 main {
     margin-bottom: 2rem;
 }
-
-/* ----- Classes ----- */
 
 .form {
     padding: 1rem;
@@ -206,8 +202,6 @@ i:hover {
     margin-top: 1rem;
 }
 
-/* ----- IDs ----- */
-
 #title {
     font: 2.5rem Zen Dots;
     margin: 1rem;
@@ -231,7 +225,6 @@ i:hover {
 }
 
 #main-footer {
-    /*background: linear-gradient(45deg, #5b98d1, #1c6a94);*/
     padding: 1rem 0;
     margin-top: 2rem;
     width: 100%;
@@ -247,8 +240,6 @@ i:hover {
     padding: 0 0rem 1rem;
     margin: auto;
 }
-
-/* ----- Media Queries ----- */
 
 @media only screen and (min-width: 502px) {
     .container {
