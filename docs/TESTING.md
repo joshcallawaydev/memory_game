@@ -93,7 +93,7 @@ No issues found in HTML validation.
 
 No issues found with the CSS validation.
 
-![Image of the HTML validation test](../assets/images/css_validator.png)
+![Image of the CSS validation test](../assets/images/css_validator.png)
 
 ### Javascript
 
@@ -125,4 +125,8 @@ With more time i would have liked to refine the game validation. Currently if yo
 
 Further to this you can click a card after its open and it will close. I would to add more validation so this does not hapen.
 
+I would have also liked to have presented the scores automatically, without the need to refresh the page. All features that can be implemented in later releases.
+
 ![A image of the card flip bug](../assets/images/bug1.png)
+
+Thank you for taking the time to read through my testing.
