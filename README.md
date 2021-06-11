@@ -134,7 +134,9 @@ The colour scheme and background were chosen to improve the asthetics of the gam
 
 # Testing
 
-Please see TESTING.md file within the DOCs folder.
+Please see TESTING file within the DOCs folder. Link below.
+
+https://github.com/joshcallawaydev/memory_game/blob/master/docs/TESTING.md
 
 # Deployment
 
