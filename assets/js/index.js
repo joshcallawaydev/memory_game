@@ -1,5 +1,3 @@
-// cards
-
 let cardArray = [{
         name: "bulbasaur",
         img: "assets/images/bulbasaur.png",
@@ -50,8 +48,6 @@ let cardArray = [{
     },
 ];
 
-//define variables and get DOM element
-
 let grid = document.querySelector(".grid");
 let popup = document.querySelector(".popup");
 let playAgain = document.querySelector(".playAgain");
@@ -65,8 +61,6 @@ let clicks = 0;
 let seconds = 0;
 let timer = 0;
 let downloadTimer;
-
-// start and stop timer functions
 
 function stopTimer() {
     clearInterval(downloadTimer);
@@ -90,27 +84,21 @@ function replay() {
         return;
     }
 
-    // reset state
     popup.style.display = "none";
     clickBoard.innerHTML = "0";
     cardsWon = 0;
     clicks = 0;
     grid.innerHTML = "";
     startTimer();
-    // Functions
 
     createBoard(grid, cardArray);
     arrangeCard();
-
-    // Adding a click function for images 
 
     image = document.querySelectorAll("img");
     Array.from(image).forEach(img =>
         img.addEventListener("click", flipCard)
     );
 }
-
-//createBoard function
 
 function createBoard(grid, array) {
     for (var i = 0; i < array.length; i++) {
@@ -121,13 +109,9 @@ function createBoard(grid, array) {
     }
 }
 
-// arrangeCard function
-
 function arrangeCard() {
     cardArray.sort(() => 0.5 - Math.random());
 }
-
-// flip Card function
 
 function flipCard() {
     let selected = this.dataset.id;
@@ -142,7 +126,6 @@ function flipCard() {
         setTimeout(checkForMatch, 500);
     }
 }
-// checkForMatch function
 
 function checkForMatch() {
     let imgs = document.querySelectorAll("img");
@@ -166,15 +149,11 @@ function checkForMatch() {
 
 function checkWon() {
     if (cardsWon == cardArray.length / 2) {
-        // const name = document.querySelector("the name element").value;
         const score = seconds;
         window.saveData(score, new Date().toUTCString());
 
         stopTimer();
         alert("Congratulations, you won");
-        // stop timer
-        // save
-        // render personal best
         setTimeout(() => popup.style.display = "flex", 300);
     }
 }
