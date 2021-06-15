@@ -1,4 +1,4 @@
-(function personalBest() {
+(function(win) {
     function renderPersonalBestTable(body, scores) {
         for (var i = 0; i < scores.length; i++) {
             var score = scores[i];
@@ -12,8 +12,8 @@
             body.appendChild(tableRow);
         }
     }
-    window.saveData = function saveData(score, lastTimePlayed) {
-        let existingGamesPlayed = JSON.parse(window.localStorage.getItem('game'));
+    win.saveData = function saveData(score, lastTimePlayed) {
+        let existingGamesPlayed = JSON.parse(win.localStorage.getItem('game'));
         if (!existingGamesPlayed) {
             existingGamesPlayed = [];
         }
@@ -22,10 +22,10 @@
             score,
             lastTimePlayed
         });
-        window.localStorage.setItem('game', JSON.stringify(existingGamesPlayed));
+        win.localStorage.setItem('game', JSON.stringify(existingGamesPlayed));
     };
-    window.loadData = function loadData() {
-        let existingGamesPlayed = JSON.parse(window.localStorage.getItem('game'));
+    win.loadData = function loadData() {
+        let existingGamesPlayed = JSON.parse(win.localStorage.getItem('game'));
         if (!existingGamesPlayed) {
             existingGamesPlayed = [];
         }

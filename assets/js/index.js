@@ -1,3 +1,5 @@
+(function(win) {
+
 let cardArray = [{
         name: "bulbasaur",
         img: "assets/images/bulbasaur.png",
@@ -150,7 +152,7 @@ function checkForMatch() {
 function checkWon() {
     if (cardsWon == cardArray.length / 2) {
         const score = seconds;
-        window.saveData(score, new Date().toUTCString());
+        win.saveData(score, new Date().toUTCString());
 
         stopTimer();
         alert("Congratulations, you won");
@@ -159,10 +161,12 @@ function checkWon() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    window.loadData();
+    win.loadData();
     playAgain.addEventListener("click", replay);
     startGame.addEventListener("click", function (e) {
         e.preventDefault();
         replay();
     });
 });
+
+})(window);
