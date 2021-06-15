@@ -123,7 +123,7 @@ Comments - Only alerts were advising no use of the function but this is in use o
 
 With more time i would have liked to refine the game validation. Currently if you click too quickly the logic can not keep up and the clicks can be unregistered.
 
-Further to this you can click a card after its open and it will close. I would to add more validation so this does not hapen.
+Further to this you can click a card after its open and it will close. I would like to add more validation so this does not happen.
 
 I would have also liked to have presented the scores automatically, without the need to refresh the page. All features that can be implemented in later releases.
 
