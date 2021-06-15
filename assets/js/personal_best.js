@@ -1,7 +1,7 @@
 (function(win) {
     function renderPersonalBestTable(body, scores) {
-        for (var i = 0; i < scores.length; i++) {
-            var score = scores[i];
+        for (let i = 0; i < scores.length; i++) {
+            let score = scores[i];
             const tableRow = document.createElement('tr');
             const columnOne = document.createElement('td');
             const columnTwo = document.createElement('td');

@@ -103,7 +103,7 @@ function replay() {
 }
 
 function createBoard(grid, array) {
-    for (var i = 0; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         let img = document.createElement("img");
         img.setAttribute("src", "assets/images/Pokemon_Card.jpeg");
         img.setAttribute("data-id", i);
