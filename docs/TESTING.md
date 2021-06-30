@@ -123,6 +123,8 @@ Comments - Only alerts were advising no use of the function but this is in use o
 
 With more time i would have liked to refine the game validation. Currently if you click too quickly the logic can not keep up and the clicks can be unregistered.
 
+The clock does not account for daylight savings.
+
 Further to this you can click a card after its open and it will close. I would like to add more validation so this does not happen.
 
 In testing i also found that the cards can be laggy when used with lower internet speeds. Click can not turn cards. With more time i would refactor again, and also change the timings of the card flips.
