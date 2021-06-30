@@ -169,18 +169,18 @@ The site is deployed with Netlify. I chose Netlify for its ease of use and abili
 
 ### Forking the repo
 
-By forking the GitHub Repo, you make a copy of the original repository on your GitHub account to view and/or make changes without affecting the original repository. To do this, please follow the below steps...
+By forking the GitHub Repo, you make a copy of the original repository on your GitHub account to view and/or make changes without affecting the original repo. To do this, please follow the below steps...
 
-1) Log in to GitHub and locate the GitHub Repository
-2) At the top of the Repository (not top of the page) just above the "Settings" Button on the menu, locate the "Fork" Button
+1) Log in to GitHub and navigate to the GitHub Repo
+2) At the top of the Repo (not top of the page) just above the "Settings" Button on the menu, locate the fork Button
 3) Click the fork button
-4) You should now have a copy of the original repository in your GitHub
+4) You should now have a copy of the original repo in your GitHub
 
 ### Cloning the repo
 
 1) Log in to GitHub and locate the GitHub Repo
-2) Under the repo name, click 'code' to veiw the repo URL or download the ZIP file.
-3) To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+2) Under the repo name, click 'code' to veiw the repo URL or download the ZIPPED file.
+3) To clone the repo using HTTPS, under "Clone with HTTPS", copy the link.
 4) Open terminal
 5) Change the current working directory to the location where you want the cloned directory to be made.
 6) Type git clone, and then paste the URL you copied in Step 3.
