@@ -125,7 +125,7 @@ function flipCard() {
     this.classList.add("flip");
     this.setAttribute("src", cardArray[selected].img);
     if (cardsId.length === 2) {
-        setTimeout(checkForMatch, 500);
+        setTimeout(checkForMatch, 600);
     }
 }
 
@@ -136,7 +136,7 @@ function checkForMatch() {
     if (cardsSelected[0] === cardsSelected[1] && firstCard !== secondCard) {
 
         cardsWon += 1;
-        setTimeout(checkWon, 500);
+        setTimeout(checkWon, 600);
     } else {
         imgs[firstCard].setAttribute("src", "assets/images/Pokemon_Card.jpeg");
         imgs[secondCard].setAttribute("src", "assets/images/Pokemon_Card.jpeg");
@@ -156,7 +156,7 @@ function checkWon() {
 
         stopTimer();
         alert("Congratulations, you won");
-        setTimeout(() => popup.style.display = "flex", 300);
+        setTimeout(() => popup.style.display = "flex", 600);
     }
 }
 
