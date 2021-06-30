@@ -241,6 +241,10 @@ i:hover {
     margin: auto;
 }
 
+#contact-body {
+    height: 100vh;
+}
+
 @media only screen and (min-width: 502px) {
     .container {
         height: 40rem;
